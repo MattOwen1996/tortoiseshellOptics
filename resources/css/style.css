@@ -1,0 +1,107 @@
+/* base */
+* {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.site-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* header */
+header {
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+header span {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+header nav {
+  text-align: right;
+}
+
+header nav li {
+  padding-left: 2rem;
+}
+
+header img {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+}
+
+/* banner */
+.banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.slogan {
+  background-color: white;
+  z-index: 1;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+}
+
+.slogan h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* icons */
+.icons {
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.icon {
+  width: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+/* info */
+.info {
+  margin-bottom: 5rem;
+}
+
+.info-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  width: 35%;
+}
+
+#appointment {
+  margin-left: 2.5%;
+}
+
+#philosophy {
+  margin-right: 2.5%;
+}
+
+/* footer */
+footer {
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+footer img {
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+}
