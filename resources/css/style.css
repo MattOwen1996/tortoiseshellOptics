@@ -15,6 +15,18 @@ header {
   background-color: cadetblue;
   padding: 1rem 2rem;
   margin-top: 1rem;
+  display: inline-flex;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  width: 960px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-logo {
+  display: inline-flex;
+  align-items: center;
 }
 
 header span {
@@ -23,15 +35,16 @@ header span {
 }
 
 header nav {
-  text-align: right;
 }
 
 header nav li {
   padding-left: 2rem;
+  display: inline-flex;
 }
 
 header img {
-  padding: 0.5rem 1rem 0.5rem 2rem;
+  height: 1.5rem;
+  margin-right: 1rem;
 }
 
 /* banner */
