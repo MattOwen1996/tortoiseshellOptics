@@ -80,6 +80,8 @@ header img {
   height: 8rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .icon {
@@ -91,6 +93,7 @@ header img {
 /* info */
 .info {
   margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 
 .info-title {
