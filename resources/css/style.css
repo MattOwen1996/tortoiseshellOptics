@@ -8,6 +8,11 @@
   max-width: 960px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+}
+
+div {
+  display: block;
 }
 
 /* header */
@@ -77,17 +82,25 @@ header img {
 
 /* icons */
 .icons {
-  height: 8rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: inline-flex;
-  justify-content: center;
 }
 
 .icon {
-  width: 5rem;
+  height: 8rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
   margin-left: 3rem;
   margin-right: 3rem;
+  align-items: center;
+}
+
+.icon img {
+  margin-bottom: 1rem;
+  width: 5rem;
 }
 
 /* info */
