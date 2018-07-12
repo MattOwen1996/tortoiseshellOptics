@@ -104,7 +104,13 @@ header img {
 }
 
 /* info */
+.info-section {
+  display: inline-flex;
+  justify-content: center;
+}
+
 .info {
+  width: 35%;
   margin-bottom: 5rem;
   margin-top: 3rem;
 }
@@ -113,22 +119,16 @@ header img {
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
   background-color: cadetblue;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1.25rem;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
   margin-bottom: 1rem;
+  color: white;
+  font-weight: bold;
 }
 
-.description {
-  width: 35%;
-}
-
-#appointment {
-  margin-left: 2.5%;
-}
-
-#philosophy {
-  margin-right: 2.5%;
+.info p {
+  padding: 1rem 0;
+  margin-right: 5%;
 }
 
 /* footer */
