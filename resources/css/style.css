@@ -60,6 +60,13 @@ header img {
   z-index: 1;
   padding: 1.5rem 5rem;
   margin-top: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-left: 48rem;
+  position: relative;
+  right: 8rem;
+  font-weight: bold;
 }
 
 .slogan h1 {
