@@ -83,7 +83,6 @@ header img {
 /* icons */
 .icons {
   margin-top: 3rem;
-  margin-bottom: 3rem;
   display: inline-flex;
 }
 
@@ -107,12 +106,12 @@ header img {
 .info-section {
   display: inline-flex;
   justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .info {
   width: 35%;
-  margin-bottom: 5rem;
-  margin-top: 3rem;
 }
 
 .info-title {
@@ -127,7 +126,6 @@ header img {
 }
 
 .info p {
-  padding: 1rem 0;
   margin-right: 5%;
 }
 
