@@ -73,11 +73,16 @@ header img {
 }
 
 /* icons */
+.icon-section {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .icons {
   display: inline-flex;
   margin-top: 3rem;
   display: inline-flex;
-  justify-content: center;
 }
 
 .icon {
@@ -89,7 +94,6 @@ header img {
   margin-right: 3rem;
   align-items: center;
   justify-content: space-between;
-  justify-items: center;
 }
 
 .icon img {
