@@ -11,6 +11,34 @@
 }
 
 /* header */
+@media only screen and (min-width: 1024px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner {
+    padding-top: 0;
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    padding-top: 0;
+    height: 17rem;
+  }
+
+  .desktop-tablet-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+
+  }
+}
+
 header {
   background-color: cadetblue;
   padding: 1rem 2rem;
