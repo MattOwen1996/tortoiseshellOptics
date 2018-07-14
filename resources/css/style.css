@@ -8,11 +8,6 @@
   max-width: 960px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-}
-
-div {
-  display: block;
 }
 
 /* header */
@@ -24,7 +19,7 @@ header {
   color: white;
   font-family: Helvetica;
   font-size: 1rem;
-  width: 960px;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 }
@@ -37,9 +32,6 @@ header {
 header span {
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
-}
-
-header nav {
 }
 
 header nav li {
@@ -82,8 +74,10 @@ header img {
 
 /* icons */
 .icons {
+  display: inline-flex;
   margin-top: 3rem;
   display: inline-flex;
+  justify-content: center;
 }
 
 .icon {
@@ -91,10 +85,11 @@ header img {
   display: flex;
   text-align: center;
   flex-direction: column;
-  justify-content: space-between;
   margin-left: 3rem;
   margin-right: 3rem;
   align-items: center;
+  justify-content: space-between;
+  justify-items: center;
 }
 
 .icon img {
@@ -131,11 +126,19 @@ header img {
 
 /* footer */
 footer {
+  display: inline-flex;
   background-color: azure;
-  margin-top: 5rem;
+  padding: 4rem 2rem;
 }
 
 footer img {
-  padding: 4rem 1rem 4rem 4rem;
+  display: inline-flex;
+  margin-left: 2rem;
+  margin-right: 1rem;
   height: 1.5rem;
+}
+
+.bottom-logo {
+  display: inline-flex;
+  align-items: center;
 }
