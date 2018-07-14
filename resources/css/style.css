@@ -1,4 +1,10 @@
 /* base */
+@media only screen and (max-width: 1024px) or (max-width: 470px){
+  .site-container {
+    width: 100%;
+  }
+}
+
 * {
   font-size: 18px;
   line-height: 1.4;
@@ -22,6 +28,10 @@
     padding-top: 0;
     height: 22rem;
   }
+
+  .mobile-nav {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 470px) {
@@ -32,10 +42,6 @@
 
   .desktop-tablet-nav {
     display: none;
-  }
-
-  .mobile-nav {
-
   }
 }
 
@@ -73,6 +79,29 @@ header img {
 }
 
 /* banner */
+@media only screen and (max-width: 1024px) {
+  .slogan {
+    margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+  }
+  .slogan h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .slogan {
+    margin-top: 9rem;
+    padding: 1rem auto;
+    width: 100%;
+    text-align: center;
+  }
+  .slogan h1 {
+    font-size: 1rem;
+  }
+}
+
 .banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-repeat: no-repeat;
