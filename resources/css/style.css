@@ -133,10 +133,13 @@ header img {
 @media only screen and (max-width: 470px) {
   .icons {
     margin-top: 3.77rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .icon {
     margin-bottom: 1.54rem;
+    align-self: center;
   }
 }
 
@@ -170,6 +173,20 @@ header img {
 }
 
 /* info */
+@media only screen and (max-width: 470px) {
+  .info-section {
+    display: flex;
+    font-family: Helvetica;
+    align-self: center;
+    flex-direction: column;
+  }
+
+  .info p {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+}
+
 .info-section {
   display: inline-flex;
   justify-content: center;
@@ -197,6 +214,18 @@ header img {
 }
 
 /* footer */
+@media only screen and (max-width: 470px) {
+  .bottom-logo span {
+    display: none;
+  }
+
+  .bottom-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 footer {
   display: inline-flex;
   background-color: azure;
